@@ -13,8 +13,8 @@ const socialMediaLinks = {
   github: "https://github.com/sateesh2020",
   linkedin: "https://www.linkedin.com/in/satheeshvalluru/",
   gmail: "vallurusateesh2009@gmail.com",
-  quora : "https://www.quora.com/profile/Sateesh-Valluru-2",
-  stackoverflow : "https://stackoverflow.com/users/3517817/satheeshsmart",
+  quora: "https://www.quora.com/profile/Sateesh-Valluru-2",
+  stackoverflow: "https://stackoverflow.com/users/3517817/satheeshsmart",
 };
 
 const skillsSection = {
@@ -92,7 +92,11 @@ const bigProjects = {
     {
       image: "https://workofartisans.com/resources/common/logos/logo_tag.jpg",
       link: "https://workofartisans.com/",
-      name : "Work of Artisans"
+      name: "Work of Artisans"
+    }, {
+      image: "https://remascuriouskids.com/assets/img/brand/logo.png",
+      link: "https://remascuriouskids.com",
+      name: "Remas Curious Kids"
     }
   ]
 };

@@ -1,8 +1,10 @@
   .container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 1rem 1rem;
-    gap: 1rem 1rem;
+    gap: 1rem 1rem; */
+    display: flex;
+    justify-content: space-evenly;
   }
   
   /* Rectangle Card Layout */

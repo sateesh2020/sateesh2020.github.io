@@ -21,9 +21,13 @@
 
 .startup-project-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 25px;
 }
 
+.startup-project-logo{
+  cursor: pointer;
+}
 .project-card-description {
   color: rgb(88, 96, 105);
 }
