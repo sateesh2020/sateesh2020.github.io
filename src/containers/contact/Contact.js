@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo} from "../../portfolio";
+import { contactInfo } from "../../portfolio";
 
 export default function Contact() {
     return (
@@ -13,15 +13,15 @@ export default function Contact() {
 
                     <div className="contact-text-div">
                         <a className="contact-detail" href={"tel:" + contactInfo.number}>{contactInfo.number}</a>
-                        <br/><br/>
+                        <br /><br />
                         <a className="contact-detail-email"
-                           href={"mailto:" + contactInfo.email_address}>{contactInfo.email_address}</a>
-                        <br/><br/>
-                        <SocialMedia/>
+                            href={"mailto:" + contactInfo.email_address}>{contactInfo.email_address}</a>
+                        <br /><br />
+                        <SocialMedia />
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Saad Working" src={require("../../assests/images/contactMail.png")}></img>
+                    <img alt="Satheesh Working" src={require("../../assests/images/contactUs.svg")}></img>
                 </div>
             </div>
         </div>
